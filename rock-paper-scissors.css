@@ -1,0 +1,69 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.text {
+  font-size: 22px;
+}
+
+#buttonsContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 25px;
+}
+
+#playAgain {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#winnerContainer {
+  text-align: center;
+}
+
+.g1 {
+  grid-area: g1;
+}
+.g2 {
+  grid-area: g2;
+}
+.g3 {
+  grid-area: g3;
+}
+.g4 {
+  grid-area: g4;
+}
+.g5 {
+  grid-area: g5;
+}
+.g6 {
+  grid-area: g6;
+}
+.g7 {
+  grid-area: g7;
+}
+.g8 {
+  grid-area: g8;
+}
+
+#resultContainer {
+  text-align: center;
+  display: grid;
+  margin-top: 0px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "g1 g2"
+    "g3 g4"
+    "g5 g6"
+    "g7 g8";
+  grid-gap: 10px 20px;
+}
+/* 
+#scoreContainer {
+  text-align: center;
+  display: flex;
+} */
